@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.day {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: greenyellow;
+  width: 40px;
+  height: 40px;
+  margin: 2px;
+  cursor: pointer;
+}
+
+.empty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  width: 40px;
+  height: 40px;
+  margin: 2px;
+}
+
+.red {
+  background: red;
+}
+
+
+.month {
+  display: flex;
+  flex-wrap: wrap;
+  width: 312px;
+}
